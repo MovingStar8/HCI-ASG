@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Square+Peg&display=swap");
+html body {
+	margin: 0;
+	padding: 0;
+}
+html {
+	justify-content: center;
+	align-items: center;
+}
+* {
+	font-family: "Poppins", sans-serif;
+	color: white;
+	margin: 0;
+}
+body {
+	height: 100vh;
+	background-color: rgb(68, 68, 68);
+}
+.nav-bar {
+	background-color: grey;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 20px;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 3px;
+}
+.nav-button-group {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-button {
+	margin: 0 10px;
+}
+.nav-button:hover {
+	cursor: pointer;
+	transform: scale(1.08);
+	transition: all 0.1s ease-in-out;
+}
+.nav-button:hover {
+	cursor: pointer;
+	size: 20px;
+}
+.main-content {
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer {
+	background-color: grey;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+}
+.footer h6 {
+	font-size: 7px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
